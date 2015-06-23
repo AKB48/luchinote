@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">路痴笔记</string>
+    <string name="action_settings">Menu Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user_name"> 用户 %1$s</string>
+
+    <!-- MainActivity -->
+    <string name="btn_mark_start">开启标记</string>
+    <string name="btn_mark">标记</string>
+
+    <!-- login -->
+    <string name="btn_login">登入</string>
+    <string name="btn_register">注册</string>
+    <string name="btn_set">重置</string>
+    
+     <string name="login_username">用户名</string>
+    <string name="login_password">用户密码</string>
+     <string name="chk_showpassword">显示密码</string>
+    <string name="loginRememberMeCheckBox">记住密码</string>
+    
+    
+
+    <!-- MakerActivity -->
+    <string name="btn_maker">标记</string>
+    <string name="btn_photo">+ 添加图片</string>
+    <string name="txt_info">在此处记录您的笔记...</string>
+
+    <!-- RegisterActivity -->
+    <string name="reg_userName">用户名：手机号</string>
+    <string name="reg_password">密码</string>
+    <string name="reg_passwordAgain">重输入密码</string>
+    
+    <string name="chk_reg_showpassword">显示密码</string>
+ 
+
+</resources>

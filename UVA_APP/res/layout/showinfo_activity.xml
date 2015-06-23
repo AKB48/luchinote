@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+      <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+             <ImageView
+            android:id="@+id/show_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon4" />
+
+            <TextView
+                android:id="@+id/show_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:background="#45000000"
+                android:padding="40dp"
+                android:textColor="#FFFFFF"
+                android:text="我的..."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+         </RelativeLayout>
+      <!--   <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="gggg"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </FrameLayout> -->
+    </FrameLayout>
+
+</LinearLayout>
